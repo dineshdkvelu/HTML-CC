@@ -1,0 +1,133 @@
+/* CSS Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/* Main Styling */
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+a{
+    text-decoration:none;
+    /* color:#333; */
+}
+li{
+    list-style: none;
+}
+p{
+   margin:10px 0; 
+}
+/* utility */
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding:0 20px ;
+}
+.pd2{
+    padding: 30px 0;
+}
+.heading{
+    font-size: 40px;
+}
+.clr{
+    clear: both;
+}
+/* navBar */
+#navBar{
+    background-color:#333;
+    color:white;
+    overflow:auto;
+    /* padding: 10px 0; */
+}
+#navBar a{
+    color: white;
+}
+#navBar h1{
+    float: left;
+    padding-top: 20px;
+    /* padding-left: 20px; */
+}
+#navBar ul{
+    float: right;
+}
+#navBar ul li{
+    float:left;
+    /* padding-right: 20px; */
+}
+#navBar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+    
+}
+#navBar ul a:hover, #navBar ul a.current{
+   background-color: rgb(99, 97, 97);
+   color:orange;
+}
+.infocontainer{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding:0 20px ;
+}
+#aboutinfo{
+    padding: 20px;
+}
+.primarytext{
+    color: orange;
+}
+
+#aboutinfo .infoleft{
+    float:left;
+    width: 50%;
+    min-height: 100%;
+    text-align: left;
+}
+
+#aboutinfo .inforight{
+    float:right;
+    width: 50%;
+    min-height: 100%;
+}
+#aboutinfo .inforight img{
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 3%;
+}
+#testimonials{
+    background-image: url(../Img/test-bg.jpg);
+    background-size: cover;
+    padding: 100px 30px;
+    /* height: 600px; */
+}
+.heading2{
+    font-size: 40px;
+    color:white;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.test1{
+    background-color: rgb(240, 157, 97);
+    overflow: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+#testimonials .test1 img{
+    width:100px;
+    /* display: block; */
+    float:left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+footer{
+    background-color: #333;
+    color:white;
+    text-align: center;
+}
